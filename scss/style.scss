@@ -1,3 +1,7 @@
-@import "reset.scss";
-@import "main.scss";
-@import "fonts.scss";
+@import "modules/variable.scss";
+@import "partials/reset.scss";
+@import "partials/keyframes.scss";
+@import "modules/classes.scss";
+@import "components/header.scss";
+@import "pages/main.scss";
+@import "partials/fonts.scss";
