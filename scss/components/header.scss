@@ -1,0 +1,29 @@
+.logo-wrapper{
+    width: 250px;
+}
+.margin-none{
+    margin: none;
+}
+.navigation-a{
+    font-size: $defaultFontSize;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $defaultBlueColor;
+    line-height: 25px;  
+}
+.navigation-ul{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.left{
+    margin-left: 130px;
+}
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+.nav-wrapper{
+width: 100%;
+}
