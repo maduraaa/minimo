@@ -10,6 +10,11 @@
     text-decoration: none;
     color: $defaultBlueColor;
     line-height: 25px;  
+    font-family: 'Varela Round', sans-serif;
+    letter-spacing: 1.2px;
+    &:hover{
+        border-bottom: 1px solid red;
+    }
 }
 .navigation-ul{
     display: flex;
@@ -25,5 +30,9 @@
     margin: 0 auto;
 }
 .nav-wrapper{
-width: 100%;
+    width: 100%;
+}
+.nav-wrapper-box{
+    display: flex;
+    justify-content: center;
 }

@@ -1,9 +1,64 @@
-.test{
+.h1{
+    padding-top: 40px;
+    font-size: $defaultFontSize;
     color: $defaultBlueColor;
-    font-size: 300px;
-    text-decoration: none;
     text-transform: uppercase;
+}
+.photo-text1{
+    font-size: 30px;
+    color: $defaultBlueColor;
+    padding-top: 40px;
+}
+.photo-text-long{
+    font-size: 14px;
+    color:$defaultBlueColor ;
+    padding-top: 20px;
+    max-width: 900px;
+    line-height: 18px;
+}
+.h2{
+    color:$defaultBlueColor ;
+    font-size:$defaultFontSize ;
+    text-transform: uppercase;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.photo-text{
+    margin-left: 16%;
+}
+.page2-wrapper1{
+    height: 280px;
+}
+.page2-text1{
+    font-size: $defaultFontSize;
+    color: $defaultBlueColor;
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 1px;
+}
+.page2-text2{
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color:$defaultBlueColor ;
+}
+.page2-text3{
+    margin-top: 30px;
+    font-size: $defaultFontSize;
+    font-family: 'Roboto Condensed', sans-serif;
+    color:$defaultBlueColor ;
+    max-width: 420px;
+    line-height: 17px;
+    letter-spacing: 0.5px;
+}
+.page2-wrapper-box{
     display: flex;
-    justify-content: center;
-    margin-top: 10%;
+    flex-wrap: wrap;
+    margin-left: 16%;
+    margin-top: 130px;
+}
+.wrapper-move-flex{
+    margin-left: 60px;
+    margin-bottom: 130px;
 }
