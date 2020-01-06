@@ -141,3 +141,38 @@
 .change-size{
     margin-left: 70px;
 }
+.load-more{
+    margin-top: 50px;
+    width: 900px;
+    height: 200px;
+    // background-color: teal;
+    box-sizing: border-box;
+}
+.load-more-text{
+    display: flex;
+    justify-content: center;
+    font-size: $defaultFontSize;
+    color: $defaultBlueColor;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 18px;
+}
+.show-more-btn{
+    box-sizing: border-box;
+    width: 170px;
+    text-align: center;
+    border: 2px solid;
+    height: 35px;
+    color: $defaultBlueColor;
+    padding: 3px;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 5px; 
+     &:hover{
+         cursor: pointer;
+     }
+
+}
+.btn-move{
+    display: flex;
+    justify-content: center;
+}
