@@ -141,38 +141,53 @@
 .change-size{
     margin-left: 70px;
 }
-.load-more{
+.footer{
+    height: 75px;
+    background-color: #F0F0F0;
     margin-top: 50px;
-    width: 900px;
-    height: 200px;
-    // background-color: teal;
-    box-sizing: border-box;
-}
-.load-more-text{
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+.footer-text1{
     font-size: $defaultFontSize;
-    color: $defaultBlueColor;
+    color: black;
     font-family: 'Roboto Condensed', sans-serif;
-    line-height: 18px;
+    padding-right: 40px;
 }
-.show-more-btn{
-    box-sizing: border-box;
-    width: 170px;
-    text-align: center;
-    border: 2px solid;
-    height: 35px;
-    color: $defaultBlueColor;
-    padding: 3px;
+.footer-text2{
+    font-size: $defaultFontSize;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-right: 200px;
+}
+.footer-text3{
+    font-size: $defaultFontSize;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-right: 20px;
+    padding-left: 340px; 
+}
+.fa-facebook-square{
+    padding-right: 20px;
     font-size: 20px;
-    font-family: 'Roboto Condensed', sans-serif;
-    margin-top: 5px; 
-     &:hover{
-         cursor: pointer;
-     }
-
+    color: $defaultBlueColor;
+    &:hover{
+        color: #3b5998;
+    }
 }
-.btn-move{
-    display: flex;
-    justify-content: center;
+.fa-twitter-square{
+    padding-right: 20px;
+    font-size: 20px;
+    color: $defaultBlueColor;
+    &:hover{
+        color: #00acee;
+    }
+}
+.fa-instagram{
+    font-size: 20px;
+    color: $defaultBlueColor;
+    &:hover{
+        color: $defaultBlueColor;
+    }
 }

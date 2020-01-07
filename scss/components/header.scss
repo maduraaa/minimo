@@ -7,11 +7,12 @@
 .navigation-a{
     font-size: $defaultFontSize;
     text-transform: uppercase;
-    text-decoration: none;
+    text-decoration: none; 
     color: $defaultBlueColor;
     line-height: 25px;  
     font-family: 'Varela Round', sans-serif;
     letter-spacing: 1.2px;
+    color: black;
     &:hover{
         border-bottom: 1px solid red;
     }
