@@ -3,11 +3,13 @@
     font-size: $defaultFontSize;
     color: $defaultBlueColor;
     text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
 }
 .photo-text1{
     font-size: 30px;
     color: $defaultBlueColor;
     padding-top: 40px;
+    font-family: 'Montserrat', sans-serif; 
 }
 .photo-text-long{
     font-size: 14px;
@@ -15,6 +17,7 @@
     padding-top: 20px;
     max-width: 900px;
     line-height: 18px;
+    font-family: 'Montserrat', sans-serif;
 }
 .h2{
     color:$defaultBlueColor ;
@@ -22,6 +25,7 @@
     text-transform: uppercase;
     margin-top: 40px;
     cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
 }
 .photo-text{
     margin-left: 16%;

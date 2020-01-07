@@ -14,26 +14,70 @@
         <link rel="stylesheet"  type="text/css"  href="styles/style.css">
     </head>
     <body>
-        <main>
-            <nav class="navigation container">
-                <ul class="navigation-ul ">
-                    <li class="navigation-li">
-                        <a class="navigation-li " href="index.html">
-                            <img class="logo-wrapper " src="img/logo-wrapper_1.svg" alt="logo-wrapper_1"></a>
-                    </li>
-                    <li class="navigation-li left ">
-                        <a class="navigation-a" href="#">lifestyle</a>
-                    </li> 
-                    <li class="navigation-li left">
-                        <a class="navigation-a" href="#">photodiary</a>
-                    </li>
-                    <li class="navigation-li left">
-                        <a class="navigation-a" href="#">music</a> 
-                    </li>
-                    <li class="navigation-li left">
-                        <a class="navigation-a" href="#">travel</a> 
-                    </li>
-                </ul>
+<main>
+<nav class="navigation ">
+<ul class="navigation-ul ">
+    <li class="navigation-li">
+        <a class="navigation-li " href="index.html">
+            <img class="logo-wrapper " src="img/logo-wrapper_1.svg" alt="logo-wrapper_1"></a>
+    </li>
+    <li class="navigation-li left ">
+        <a class="navigation-a" href="#">lifestyle</a>
+    </li> 
+    <li class="navigation-li left">
+        <a class="navigation-a" href="#">photodiary</a>
+    </li>
+    <li class="navigation-li left">
+        <a class="navigation-a" href="#">music</a> 
+    </li>
+    <li class="navigation-li left">
+        <a class="navigation-a log-in-right" href="#">travel</a> 
+    </li>
+    <li>
+        <div class="sig-in-box">
+            <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+            
+            <div id="id01" class="modal">
+            
+            <form class="modal-content animate" action="/action_page.php" method="post">
+                <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <img src="img/title-logo.png" alt="Avatar" class="avatar">
+                </div>
+            
+                <div class="container">
+                <label  for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+            
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+                    
+                <button type="submit">Login</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+                </div>
+            
+                <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+                </div>
+            </form>
+            </div>
+            <script>
+                // Get the modal
+                var modal = document.getElementById('id01');
+                
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function(event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                    }
+                }
+                </script>
+                </div>
+    </li>
+</ul>
         </nav>
           <div class="nav-wrapper-box">
             <img class="nav-wrapper container" src="img/nav-wrapper.png" alt="nav-wrapper">
@@ -146,6 +190,7 @@
        <a class="footer-social-icon" href="https://twitter.com/?lang=en" target="blank"><i class="fab fa-twitter-square"></i></a>
        <a class="footer-social-icon" href="https://www.instagram.com/" target="blank"><i class="fab fa-instagram"></i></a>
    </div>
+
   </main>
  </body> 
 </html>
